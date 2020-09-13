@@ -138,3 +138,9 @@ dmypy.json
 cython_debug/
 
 .DS_Store
+docker/notes.txt
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/f20_adv_nlp.iml
