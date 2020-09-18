@@ -12,6 +12,20 @@ Worries about the deficit concerns about China do, however, remain. China's curr
 
 """
 
+class IndexWriter:
+    def __init__(self):
+        # initialize solr
+        # self.solr_connection = ...
+        pass
+
+    def write_sentence_to_solr(self, sentence):
+        # use the solr connector to write the sentence to your index
+        pass
+
+    def write_document_to_solr(self, document):
+        # use the solr connector to write the document text to your index
+        pass
+
 class Sentence:
     def __init__(self, text, start_offset, end_offset, ents):
         self.text = text
@@ -21,6 +35,15 @@ class Sentence:
         self.org_entities = []
     
         self.process_entities(ents)
+
+    def sentence_for_solr(self):
+        # create a dictionary to submit to solr that includes
+        # the sentence text
+        # list of person entity strings
+        # list of organization entity string
+        # reference to the source document
+        # return this 
+        pass
 
     def process_entities(self, entities):
         for entity in entities:
@@ -44,6 +67,10 @@ class Document:
 
     def get_text(self):
         return self.text
+
+    def analyze_lexicon(self):
+        pass
+        # this method does x
 
     def process(self):
         try:
@@ -73,4 +100,4 @@ if __name__ == "__main__":
         print("\t", sentence.person_entities)
         print("\t", sentence.org_entities)
         print("$" * 25)
-    
+    # write the documents and sentences to solr
