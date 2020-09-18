@@ -1,0 +1,4 @@
+use:
+docker-compose up
+
+to setup container from docker file
