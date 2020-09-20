@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="f605610a-a7ff-4696-a02b-f132200a684d" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="e1082b25-c2ea-418d-bd73-4322ce256a72" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/newswatch/document.py" beforeDir="false" afterPath="$PROJECT_DIR$/newswatch/document.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newswatch/index_docs_with_entities.py" beforeDir="false" afterPath="$PROJECT_DIR$/newswatch/index_docs_with_entities.py" afterDir="false" />
+    </list>
+>>>>>>> Stashed changes
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +25,11 @@
       </set>
     </option>
   </component>
+<<<<<<< Updated upstream
   <component name="ProjectId" id="1hFCZ75IaxFaB5rH5AGeAiiZRwU" />
+=======
+  <component name="ProjectId" id="1hhR8bnJQeuj7ZSSOUdSxtVPLT5" />
+>>>>>>> Stashed changes
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -36,11 +47,44 @@
       </list>
     </option>
   </component>
+<<<<<<< Updated upstream
+=======
+  <component name="RunManager">
+    <configuration name="document" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="f20_adv_nlp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/newswatch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/newswatch/document.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.document" />
+      </list>
+    </recent_temporary>
+  </component>
+>>>>>>> Stashed changes
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< Updated upstream
       <changelist id="f605610a-a7ff-4696-a02b-f132200a684d" name="Default Changelist" comment="" />
       <created>1599597505119</created>
       <option name="number" value="Default" />
@@ -48,6 +92,15 @@
       <updated>1599597505119</updated>
       <workItem from="1599597513736" duration="1042000" />
       <workItem from="1600017779771" duration="4036000" />
+=======
+      <changelist id="e1082b25-c2ea-418d-bd73-4322ce256a72" name="Default Changelist" comment="" />
+      <created>1600461179011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600461179011</updated>
+      <workItem from="1600461191339" duration="63000" />
+      <workItem from="1600545798419" duration="13331000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
@@ -67,4 +120,10 @@
       </map>
     </option>
   </component>
+<<<<<<< Updated upstream
+=======
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/f20_adv_nlp$document.coverage" NAME="document Coverage Results" MODIFIED="1600560553731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newswatch" />
+  </component>
+>>>>>>> Stashed changes
 </project>
